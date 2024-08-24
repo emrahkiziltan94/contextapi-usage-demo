@@ -18,7 +18,7 @@ const ScProducts = styled.section`
   }
 `;
 
-const Products = () => {
+const Products = (props) => {
   const { products, addItem } = useContext(ProductContext);
 
   return (
